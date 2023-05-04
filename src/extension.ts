@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('vscode-shortcut-assistance.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from vscode-shortcut-assistance!');
+		vscode.window.showInformationMessage('Hello World from vscode-shortcut-assistance!!');
 	});
 
 	context.subscriptions.push(disposable);
